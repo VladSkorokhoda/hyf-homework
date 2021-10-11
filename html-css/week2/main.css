@@ -17,7 +17,10 @@ body {
 	padding: 50px 0 50px 15%;
 	background-color: whitesmoke;
 }
+.header-image {
+width: 100%;
 
+}
 .menu-column {
 	padding: 10px 0 10px 15%;
 	display: grid;
