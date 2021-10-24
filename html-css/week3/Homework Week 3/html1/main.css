@@ -1,0 +1,250 @@
+body {
+	width: 100%;
+	background-color: rgb(192, 206, 190);
+	margin: 0 auto;
+	padding: 0 15px ;
+}
+
+nav {
+	width: 100%;
+	margin-top: 50px;
+} 
+
+.logo-nav {
+	list-style: none;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+}
+
+.right-nav {
+	font-size: 1.25rem;
+	font-weight: 550;
+	width: 45%;
+	height: 50px;
+	background-color: rgb(98, 252, 188);
+}
+
+.left-nav {
+		font-size: 1.25rem;
+		font-weight: 550;
+		width: 15%;
+		height: 50px;
+		background-color: rgb(98, 252, 188);
+}
+
+.wrapper h1 {
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: rgb(177, 108, 209);
+	margin: 0;
+	padding: 0;
+}
+
+.logo-nav li:hover, logo-nav li:focus {
+	background-color: rgb(160, 52, 145);
+}
+
+p {
+	padding: 15px;
+	line-height: 25px;
+	letter-spacing: 1px;
+	font-size: 1.25erm;
+	font-weight: 350;
+}
+
+main p {
+	font-size: 1.25rem;
+	margin-bottom: 20px;
+}
+
+main {
+	background-color: rgb(116, 104, 187);
+	width: 100%;
+	padding-left: 10px;
+}
+
+.wrapper h1 {
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	background-color: steelblue;
+	margin: 0;
+	padding: 0;
+}
+
+.progress-bar {
+	width: 85%;
+	height: 30px;
+	background-color: seagreen;
+	
+}
+
+.progress-fill {
+	width: 15%;
+	background-color: teal;
+	height: 30px;
+	border-bottom: 20px;
+}
+
+.info input, .info select {
+	margin-bottom: 20px;
+	padding-left: 20px;
+	width: 50%;
+	height: 40px;
+}
+
+.profile {
+	width: 100%;
+}
+
+.profile textarea {
+	width: 95%;
+}
+
+.ship-address input {
+	width: 50%;
+	height: 20px;
+}
+
+.ship-address {
+	font-size: 1.25rem;
+}
+
+.submit {
+	width: 150px;
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 50%;
+	background-color: rgb(74, 87, 82);
+	color: saddlebrown;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.name {
+	display: flex;	
+	gap: 20px;
+}
+
+.parents {
+	display: flex;
+	flex-direction: row;
+}
+
+.left-column {
+	grid-template-columns: repeat(3,20px);
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	padding: 10px;
+}
+
+.right-column {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	gap: 50px;
+	padding: 20px 20% 20px 20%;
+}
+
+.left-label {
+	width: 100px;
+	display: inline-block;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between ;
+}
+
+@media screen and (mini-width:800px) {
+	body {
+		background-color: rgb(158, 147, 155);
+		width: 90%;
+	}
+	.left-nav, .right-nav {
+		height: 100px;
+		margin-top: 50px;
+	}
+	.wrapper {
+		padding-left: 50px;
+		line-height: 45px;
+	}
+	.wrapper h1 {
+		text-align: left;
+		font-size: 3rem;
+	}
+	.name input {
+		display: flex;
+		flex-direction: row;
+		padding-left: 10%;
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+	.name input {
+		width: 30%;
+	}
+	.info {
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+	.country {
+		width: 40%;
+		padding-left: 10%;
+	}
+	.street-address {
+		display: flex;
+		flex-direction: row;
+		padding-left: 10%;
+		font-size: 1.5rem;
+		font-weight: 400;
+	}
+	.street-address input {
+		width: 30%;
+		height: 40px;
+	}
+	main {
+		padding-left: 50px;
+	}
+	.profile {
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+	}
+	.profile-label {
+		width: 20%;
+		font-size: 1.5rem;
+	}
+	.profile-fill {
+		width: 75%;
+		margin-top: 20px;
+	}
+	.ship-address {
+		font-size: 25px;
+	}
+.ship-address input {
+	width: 50px;
+	height: 40px;
+}
+.submit {
+	margin-left: 70%;
+	margin-bottom: 100px;
+}
+}
