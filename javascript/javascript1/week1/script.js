@@ -1,13 +1,13 @@
 /* My age in 2027*/ 
-/*let yearOfBerth;
+let yearOfBerth;
 let yearFuture;
 yearOfBerth = 1985;
 yearFuture = 2027;
 const age = yearFuture - yearOfBerth;
-console.log('You will be' + age+ 'years old in' + yearFuture);*/
+console.log('You will be' + age+ 'years old in' + yearFuture);
 
 /* Dog age*/
-/*let dogYearOfBirth;
+let dogYearOfBirth;
 let dogYearFuture;
 dogYearOfBirth = 2017;
 dogYearFuture = 2027;
@@ -19,10 +19,10 @@ if (shouldShowResultInDogYears === true)
 }
 else {
 	console.log('Your dog will be' + dogYear*7 + 'dog years old' + dogYearFuture);
-}*/
+}
 
 /* House */
-/*var firstWords = ['Tesla', 'BMW', 'Mercedes', 'Vlad', 'Drugio'];
+var firstWords = ['Tesla', 'BMW', 'Mercedes', 'Vlad', 'Drugio'];
 var secondWords = ['Samsung', 'Toshiba', 'Nokia', 'Motorola', 'Vio'];
 console.log('From first array');
 var startupNameFromFirstWords;
@@ -33,7 +33,7 @@ console.log('From second array');
 var startupNameFromSecondWords;
 startupNameFromSecondWords = secondWords[Math.floor(Math.random() * 5)];
 var newStringFromSecond = 'Company name: '+startupNameFromSecondWords + ' contains '+ startupNameFromSecondWords.length + ' charcaters';
-console.log(newStringFromSecond);*/
+console.log(newStringFromSecond);
 
 /*Creative*/
 var firstWords = ['Easy', 'Awesome', 'Corporate', 'Future', 'First', 'Best', 'Decent', 'Reliable', 'Wonderful', 'Amazing'];
@@ -58,8 +58,8 @@ var sln = txt.length;
 console.log(txt.length);
 var txt = 'letters';
 console.log(txt);
-//var x = "letters";
-//console.log(x);
+var x = "letters";
+console.log(x);
 //console.log(newStringFromRandomNumberFromFirstWords);
-//const randomNumber = Math.floor(Math.random() * 8);
+const randomNumber = Math.floor(Math.random() * 8);
 //var sln = txt.lengthSecondWords [1];
