@@ -117,3 +117,4 @@ console.log(x);
 console.log(newStringFromRandomNumberFromFirstWords);
 const randomNumber = Math.floor(Math.random() * 8);
 var sln = txt.lengthSecondWords [1];
+//test 
