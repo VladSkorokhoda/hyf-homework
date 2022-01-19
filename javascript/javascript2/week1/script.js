@@ -135,4 +135,4 @@ const podcasts = [{
 for(let i=0; < podcasts.length; i++ ) {
 	console.log(podcasts[i])
 }
-
+ 
