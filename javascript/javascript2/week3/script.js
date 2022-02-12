@@ -71,4 +71,4 @@ const doubleClick = () => {
 	console.log('Double click');
 }
 document.addEventListener('Double click', doubleClick);
-/*-------------------9----don't know how to do--*/
+/*-------------------9----don't know how to do--------------------*/
