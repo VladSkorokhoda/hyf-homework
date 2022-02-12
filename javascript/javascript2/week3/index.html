@@ -15,7 +15,6 @@
 	<div id="ip"></div>
 <div id="address"></div>
 <div id="details"></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
    $.get("https://ipinfo.io", function (response) { 
       $("#ip").html("IP: " + response.ip); 
@@ -23,10 +22,31 @@
       $("#details").html(JSON.stringify(response, null, 4)); 
       console.log(response); 
    }, "jsonp");
-	
 </script>
+<div class="play1">
+				<h1 class="Fastest__presser">Fastest presser</h1>
+			</div>
+			<div class="button2">
+					<input type="number" name="" id="inputNumber" placeholder="set seconds">
+				</div>
+				<div class="start">
+					<button id="button-startGame">Start game</button>
+				</div>
+				<div class="final4">
+					
+				</div>
+				<div class="press">
+					<div id="presserS">
+						<h2>Press S</h2>
+					<h3 id="startS">0</h3>
+					</div>
+					<div id="presserL">
+						<h2>Press L</h2>
+						<h3 id="startL">0</h3>
+					</div>
+					<h3 id="winner"></h3>
+				</div>
+   <script src="https://cdn.jsdelivr.net/npm/confetti-js@0.0.13/dist/index.min.js"></script>
 	<script src="script.js"></script>
-
-
 </body>
 </html>
