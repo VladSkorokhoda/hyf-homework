@@ -32,7 +32,7 @@ planetLogFunction(earthLogger);
 planetLogFunction(saturnLogger);
 /*--------------------5--Create a button with the text called "Log location".--*/
 
-let buuton1 = document.getElementById('get location');
+let buuton1 = document.getElementById('get_location');
 let locationLink = document.querySelector('#locationlink');
 let locationPara = document.querySelector('#locationPara');
 button1.addEventListener('click', function() {

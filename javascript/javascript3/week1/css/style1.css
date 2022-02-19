@@ -1,0 +1,28 @@
+body {
+	grid-gap: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+}
+
+input.gif-search {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input.limit {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: lawngreen;
+}
