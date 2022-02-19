@@ -1,0 +1,74 @@
+.h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+	margin: 15px;
+	background: #222;
+}
+
+h1.Fastest__presser {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+	margin: 15px;
+}
+
+body {
+	align-items: center;
+	margin: 15px;
+	background: rgb(243, 238, 238);
+}
+
+.play1 {
+	display: flex;
+	justify-content: center;
+	background: rgb(206, 236, 237);
+}
+
+.button2 {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+	position: center;
+
+}
+
+.start {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+#button-startGame {
+	background-color: rgb(8, 246, 40);
+	padding: 10px;
+}
+
+.final4 {
+	border: none;
+	background-color: rgb(10, 10, 10);
+	color: rgb(19, 18, 18);
+	height: 2px;
+}
+
+div#presserS {
+	float: left;
+	margin: 0 20%;
+}
+
+h3#startS {
+	float: left;
+	margin: 30px;
+}
+
+div#presserL {
+	float: right;
+	margin: 0 20%;
+}
+
+h3#startL {
+	float: right;
+	margin: 30px;
+}
