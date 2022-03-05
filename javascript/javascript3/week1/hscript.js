@@ -138,7 +138,7 @@ document
 });
 
 weather.fetchWeather("Ranum");
-/*------------------Giphy api-----------------*/
+/*------------------Giphy api-------------------*/
 const giphySearchInput = document.getElementById('giphySearchInput');
 const giphySearchNumberInput = document.getElementById('giphySearchNumberInput');
 const giphyButton = document.getElementById('giphyButton');
