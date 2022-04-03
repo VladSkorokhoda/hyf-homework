@@ -1,4 +1,4 @@
-h// console.log("Vlad was here")
+// console.log("Vlad was here")
 
 // const favouriteDishes =["food", "pizza","sushi", "humus"]
 // const favouriteDishes = document-querySelector("#FavouriteDishes")
@@ -139,3 +139,6 @@ console.log(minLengtht);
 /*function findLongestWordLength(str) {
   return Math.max(...str.split(' ').map(word => word.length));
 }*/
+//
+
+
