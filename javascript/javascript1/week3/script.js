@@ -75,3 +75,6 @@ return 'Hours of :'+hoursFirstPart+ ' and minutes of :'+hoursSecondPart;
 
 
 console.log(travelTime); // 8 hours and 38 minutes
+
+
+
