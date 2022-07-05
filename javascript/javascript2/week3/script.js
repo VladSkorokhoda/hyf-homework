@@ -25,24 +25,37 @@ clickButton.addEventListener('click', () => {
 });
 /*-------------------4--Create two functions and assign them to two different variables.--*/
 
-function earthLogger () {console.log('Earth')};
-function saturnLogger () {console.log('Saturn')};
+function earthLogger1 () {console.log('Earth')};
+function saturnLogger2 () {console.log('Saturn')};
 function planetLogFunction (callback) {callback()};
+planetLogFunction(earthLogger1);
+planetLogFunction(saturnLogger2);
+/*--------------------4--second option-----------------*/
+const earthLogger = () => console.log('Earth');
+const saturnLogger = () => console.log('Saturn');
+const planetLogFunction = (callback) => callback();
 planetLogFunction(earthLogger);
 planetLogFunction(saturnLogger);
+
 /*--------------------5--Create a button with the text called "Log location".--*/
 
-let buuton1 = document.getElementById('get location');
+<<<<<<< HEAD
+let buuton1 = document.getElementById('get_location');
 let locationLink = document.querySelector('#locationlink');
 let locationPara = document.querySelector('#locationPara');
+=======
+const button1 = document.getElementById('get location');
+const locationLink = document.querySelector('#locationlink');
+const locationPara = document.querySelector('#locationPara');
+>>>>>>> 500411cfaa9ac7e612aada211c9b0e2c85102d84
 button1.addEventListener('click', function() {
 	navigator.geolocation.getCurrentPosition(function(position) {
-		let lat = position.coords.latitude;
-		let long = position.coords.longitude;
+		const lat = position.coords.latitude;
+		const long = position.coords.longitude;
 		locationPara.innerText= ` Your location is ${lat.toFixed(2)}° Lattitude by ${ long.toFixed(2)}° Longitude`
 });
 });
-/*--------------------6--Google-Map----------------------------------------------*/
+/*--------------------6--Google-Map-------------------*/
 
 const button3 = documentElementById('Click me Again 3')
 const myPosition = document.getElementById('position')
@@ -54,7 +67,7 @@ function showPosition(position){
    "<br>Longitude: " + position.coords.longitude;
 }
 button3.addEventListener('click', getlocation);
-/*-------------------7--Create a function called runAfterDelay------------*/
+/*-------------------7--Create a function called runAfterDelay*/
 
 function runAfterDelay(delay, callback) {
 	setTimeout(callback, delay * 1000);
@@ -71,4 +84,73 @@ const doubleClick = () => {
 	console.log('Double click');
 }
 document.addEventListener('Double click', doubleClick);
-/*-------------------9----don't know how to do--------------------*/
+/*-------------------9--Joke--------------------*/
+
+const badJoke = () => {
+	console.log("If you received a call to the intercom and asked a stupid question: Are you at home?, do not get annoyed, it is better to calmly answer: Yes, where are you?.")
+}
+const funnyJoke = () => {
+	console.log("People who read newspapers while sitting on the toilet are ready for any news.")
+}
+const jokeCreator = ( shouldTellFunnyJoke, logFannyJoke, logBadJoke) => {
+	if (shouldTellFunnyJoke) {
+		logFannyJoke()
+	} else {
+		logBadJoke()
+	}
+}
+jokeCreator(tru, funnyJoke, badJoke)
+/*--------------------Function as a variable--------------------*/
+
+const a_function = (text) => {
+	console.log(text)
+};
+const b_function = (text) => {
+	console.log(text)
+};
+const c_function = (text) => {
+	console.log(text)
+};
+var arrayOfFunctions = [
+	a_function,
+	b_function,
+	c_function
+]
+for (let i = 0; i < arrayOfFunctions.length; i++) {
+	arrayOfFunctions[i](`the ${i} call function`);
+}
+/*-------------------both functions------------------*/
+
+const haha = () => {
+	console.log('haha')
+}
+function normalFunction () {
+	consolr.log('normal function')
+}
+haha();
+normalFunction();
+/*--------------------key--------------------*/
+
+const dream = {
+	become: function() {
+		console.log('become a developer')
+	}
+};
+/*--------------------fastest presser--------------------*/
+
+var countS = 0;
+var countL = 0;
+document
+.getElementById ('button-startGame')
+.addEventListener('click', function() {
+	let time = document.getElementById('seconds').value;
+setTimeout(() => {const end = document.getElementById('end');
+end.innerHTML = 'game over';}, time * 2000);
+})
+document.getElementById('presserS').addEventListener('keydown', function(event) {
+	if(event.key == "S") {
+		countS++;
+		const numberOfPress = document.getElementById('startS');
+		numberOfPress.innerHTML = countS;
+	}
+});
